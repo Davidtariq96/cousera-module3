@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width:469px){
+    button, .nav-link{
+        display: none;
+
+    }
+}
+.nav-link{
+    text-align: center;
+    padding-top: -8rem;
+
+}
+.navbar-nav{
+    background: #929292;
+    margin-bottom: -1rem;    
+}
+.navbar-brand{
+    font-size: 30px;
+    margin-left: 0.5rem;
+}
+span{
+    margin-right: 0.5rem;
+}
+.navbar{
+    margin: 0 -1rem;
+}
+
+.col-xs-12{
+    background: gray;
+    padding: 5px 14px;
+    margin: 2rem 2rem;
+}
